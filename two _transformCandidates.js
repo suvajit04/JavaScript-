@@ -60,7 +60,7 @@ function transformCandidates(candidates, transformCallback) {
   return candidates.map(transformCallback);
 }
 
-// 1. Candidate names
+//Candidate names
 const candidateNames = transformCandidates(
   candidates,
   candidate => candidate.name
@@ -69,7 +69,7 @@ const candidateNames = transformCandidates(
 console.log("Candidate Names:");
 console.log(candidateNames);
 
-// 2. Name with total score
+// total score
 const nameWithTotalScore = transformCandidates(
   candidates,
   candidate => ({
@@ -81,7 +81,7 @@ const nameWithTotalScore = transformCandidates(
 console.log("Name with Total Score:");
 console.log(nameWithTotalScore);
 
-// 3. Name with skill count
+// 3. skill 
 const nameWithSkillCount = transformCandidates(
   candidates,
   candidate => ({
@@ -93,7 +93,7 @@ const nameWithSkillCount = transformCandidates(
 console.log("Name with Skill Count:");
 console.log(nameWithSkillCount);
 
-// 4. Formatted candidate strings
+// 4. Formatted candidate
 const formattedCandidates = transformCandidates(
   candidates,
   candidate =>
