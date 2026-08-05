@@ -52,15 +52,12 @@ const candidates = [
     testScore: 85,
     interviewScore: 80,
     isAvailable: false,
-  },
-];
-
-// Higher-order function
+  }
 function filterCandidates(candidates, conditionCallback) {
   return candidates.filter(conditionCallback);
 }
 
-// 1. Available candidates
+//  Available candidates
 const availableCandidates = filterCandidates(
   candidates,
   candidate => candidate.isAvailable
@@ -69,7 +66,7 @@ const availableCandidates = filterCandidates(
 console.log("Available Candidates:");
 console.log(availableCandidates);
 
-// 2. Candidates scoring above 75
+// Candidates scoring above 75
 const highScorers = filterCandidates(
   candidates,
   candidate => candidate.testScore > 75
@@ -78,7 +75,7 @@ const highScorers = filterCandidates(
 console.log("Candidates Scoring Above 75:");
 console.log(highScorers);
 
-// 3. Candidates who know Js
+// Candidates who know Js
 const javaScriptCandidates = filterCandidates(
   candidates,
   candidate => candidate.skills.includes("JavaScript")
@@ -87,7 +84,7 @@ const javaScriptCandidates = filterCandidates(
 console.log("Candidates Who Know JavaScript:");
 console.log(javaScriptCandidates);
 
-// 4. Candidates gradetu after 2025
+// candidates gradetu after 2025
 const recentGraduates = filterCandidates(
   candidates,
   candidate => candidate.graduationYear >= 2025
