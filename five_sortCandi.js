@@ -72,9 +72,3 @@ const byName = sortCandidates(candidates, (a, b) =>
   a.name.localeCompare(b.name)
 );
 console.log(byName.map(c => c.name));
-
-// Number of Skills
-//const bySkills = sortCandidates(
-  //candidates,
-  //(a, b) => b.skills.length - a.skills.length);
-//console.log(bySkills.map(c => `${c.name} - ${c.skills.length}`));
