@@ -1,6 +1,7 @@
 # JavaScript Callback-Based Candidate Screening System
 
-Simple, small examples showing how to work with candidate data in JavaScript.
+Build a small candidate-screening system using JavaScript. The same reusable functions should perform
+different operations depending on the callback passed to them.
 
 Files:
 - `one_filtercan.js` — examples of filtering candidates (availability, scores, skills, graduation year).
