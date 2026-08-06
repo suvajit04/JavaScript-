@@ -84,7 +84,7 @@ const javaScriptCandidates = filterCandidates(
 console.log("Candidates Who Know JavaScript:");
 console.log(javaScriptCandidates);
 
-// candidates gradetu after 2025
+//  gradetu after 2025
 const recentGraduates = filterCandidates(
   candidates,
   candidate => candidate.graduationYear >= 2025
