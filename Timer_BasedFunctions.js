@@ -155,7 +155,7 @@ check(candidates[2])
   .catch(err => console.error(err.message));
 
 
-candidates[0].testScore = 1120;
+candidates[0].testScore = 120;
 
 check(candidates[0])
   .then(msg => console.log(msg))
@@ -205,7 +205,7 @@ status(candidates[0], "selected")
 //processCandidate
 
 function process(candidates, id) {
-  return find(candidates, id)
+  return findCandidateById(candidates, id)
     .then(c => {
       return check(c).then(() => c);
     })
