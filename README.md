@@ -93,8 +93,6 @@ After studying and running these examples you should be able to:
 - ✓ Integrate multiple modules into a single comprehensive application.
 
 ## 👨‍💻 Author
-- **suvajit04** (GitHub)
+- **suvajit04** 
 
----
 
-💬 Feel free to open an issue or submit a PR with improvements, additional examples, or corrections!
