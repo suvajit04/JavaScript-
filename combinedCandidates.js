@@ -1,8 +1,3 @@
-// CombinedCandidates - merged from multiple files
-// Demonstrates filtering, transforming, sorting, scoring, finding, validating,
-// shortlisting, and generating screening reports for a shared candidates list.
-
-// ---------- Candidates dataset ----------
 const candidates = [
   {
     id: 1,
