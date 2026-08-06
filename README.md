@@ -1,6 +1,7 @@
-# 🎯 Candidate Screening — Simple JavaScript Examples
+# 🎯 Callback-Based Candidate Screening System
 
-A tiny, easy-to-read collection of JavaScript examples that show how to build a small candidate screening pipeline using reusable functions and callbacks.
+Build a small candidate-screening system using JavaScript. The same reusable functions should perform
+different operations depending on the callback passed to them.
 
 ## 🚀 Quick start
 1. Install Node.js (v12+).
@@ -65,15 +66,6 @@ This repository includes a comprehensive combined example file `combinedCandidat
 
 **Expected output:**
 Running `combinedCandidates.js` will execute the complete candidate screening pipeline, displaying filtered candidates, transformed data, calculated scores, shortlisted results, sorted rankings, and a final comprehensive screening report.
-
-### 📂 Running Individual Module Files
-
-Alternatively, if this repository includes separate combined example files:
-
-- `node combined.js`
-- `node combinedjs.js`
-
-If you meant to combine multiple examples into a single file first, create a `combined.js` that imports or copies the desired sections from the example files and then run `node combined.js`.
 
 ## 📚 Assignment Modules
 A quick reference to the example files and their purpose:
