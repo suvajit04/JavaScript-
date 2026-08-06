@@ -81,8 +81,6 @@ A quick reference to the example files and their purpose:
 | **Seven_generateScreeningReport.js & Eight_generateScreeningReport.js** | 📋 Generating ranked screening reports and formatted summaries. |
 | **combinedCandidates.js** | 🎯 Complete candidate screening pipeline with all modules integrated. |
 
-> (Adjust filenames if your local copy uses slightly different names/casing.)
-
 ## 🎯 Learning Outcomes
 After studying and running these examples you should be able to:
 - ✓ Understand and apply higher-order functions and callbacks in JavaScript.
