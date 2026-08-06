@@ -23,11 +23,6 @@ different operations depending on the callback passed to them.
 - Each file is standalone. Run any file with `node <filename>.js`.
 - Open the file to see short comments and example outputs.
 
-## 📄 License
-Feel free to copy and adapt these examples for learning and small demos.
-
----
-
 ## 🛠️ Technologies Used
 - **JavaScript** (ES6+)
 - **Node.js** (v12+)
